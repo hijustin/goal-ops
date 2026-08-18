@@ -1,1 +1,1 @@
-# goal-ops
+# gogoal-skill

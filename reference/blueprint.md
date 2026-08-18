@@ -4,7 +4,8 @@
 > 当前状态：核心方案与看板页面原型已收敛，仅 Markdown 文档规范待专项讨论
 > 最后整理日期：2026-08-19
 > 项目名称：GoGoal
-> Skill、Plugin、CLI、仓库及项目数据目录标识：`gogoal`
+> 产品、Skill、Plugin、CLI 及项目数据目录标识：`gogoal`
+> GitHub 仓库：`gogoal-skill`
 
 本文档整理 GoGoal 多轮方案讨论中已经确认的产品定位、工作流、数据格式、CLI、日志、看板技术架构、Git 约束、Skill 结构和开发要求，作为后续实现与验收的指导蓝图。
 
@@ -75,12 +76,12 @@ GoGoal 第一阶段不包含：
 
 ## 2. 命名与标识
 
-所有公开和内部标识统一使用 `gogoal`，不再增加 `ops` 后缀：
+除 GitHub 仓库名外，产品和运行时标识统一使用 `gogoal`，不再增加 `ops` 后缀。GitHub 仓库使用更容易表达分发形态的 `gogoal-skill`：
 
 | 用途 | 名称 |
 | --- | --- |
 | 产品展示名称 | `GoGoal` |
-| GitHub 仓库 | `gogoal` |
+| GitHub 仓库 | `gogoal-skill` |
 | Plugin ID | `gogoal` |
 | Skill 名称 | `gogoal` |
 | CLI 命令 | `gogoal` |
@@ -1251,7 +1252,7 @@ dist/dashboard/
 ### 17.1 仓库结构
 
 ```text
-gogoal/
+gogoal-skill/
 ├── .codex-plugin/
 │   └── plugin.json
 ├── .agents/
