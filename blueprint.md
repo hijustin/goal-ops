@@ -472,7 +472,7 @@ AI 的自行验证不能替代用户验收。
 | `git.branchPrefix` | `"goaltask/"` | 需要任务隔离分支时使用的默认分支前缀。 |
 | `dashboard.host` | `"127.0.0.1"` | 本地只读看板监听地址，默认仅本机可访问。 |
 | `dashboard.port` | `4173` | 本地看板监听端口。 |
-| `dashboard.refreshSeconds` | `5` | 页面重新获取最新数据的间隔秒数。 |
+| `dashboard.refreshSeconds` | `60` | 页面重新获取最新数据的间隔秒数。 |
 | `dashboard.autoOpen` | `false` | 启动服务后是否尝试自动打开浏览器。 |
 | `dashboard.gitActivity` | `true` | 是否在看板中补充展示匹配管理提交格式的 Git 信息。 |
 
